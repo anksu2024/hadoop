@@ -1,2 +1,3 @@
-# hadoop
-Sample Hadoop Applications
+#Hadoop Sample Programs
+
+1) WordCount
