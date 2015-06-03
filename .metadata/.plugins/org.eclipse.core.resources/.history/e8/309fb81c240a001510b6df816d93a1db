@@ -2,6 +2,7 @@ package com.cloudwick.hadoop.WordFilter;
 
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
@@ -10,6 +11,7 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 public class WordFilter extends Configured implements Tool {
+
 	public int run(String [] args) throws Exception {
 		if(args.length != 2) {
 			System.out.printf("Usage: %s [generic options] " +
@@ -28,7 +30,10 @@ public class WordFilter extends Configured implements Tool {
 		job.setMapperClass(WordFilterMapper.class);
 
 		job.setMapOutputKeyClass(Text.class);
-		job.setMapOutputValueClass(Text.class);
+		job.setMapOutputValueClass(IntWritable.class);
+
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
 
 		if (job.waitForCompletion(true)) {
 			return 0;
