@@ -1183,3 +1183,87 @@ org.eclipse.core.runtime.CoreException: Could not write file: /Users/ankitsarraf
 2015-06-03 12:58:13,882 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
 2015-06-03 12:58:13,883 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-06-03 12:58:13,884 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:04:20,872 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:20,873 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:04:20,874 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:20,874 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:04:20,879 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:20,879 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/main/resources
+2015-06-03 13:04:20,880 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:20,880 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/test/resources
+2015-06-03 13:04:35,376 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:35,377 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:04:35,377 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:35,378 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:04:35,410 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:35,410 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/main/resources
+2015-06-03 13:04:35,411 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:35,411 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/test/resources
+2015-06-03 13:04:42,549 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:42,549 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:04:42,550 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:42,551 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:04:47,719 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:47,719 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:04:47,720 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:47,720 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:04:53,000 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cloudwick.hadoop:WordCountDynamic:0.0.1-SNAPSHOT @ /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/pom.xml.
+2015-06-03 13:04:53,018 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:53,019 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:04:53,019 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:53,019 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:04:54,135 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:54,135 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:04:54,136 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:54,136 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:04:58,583 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:58,583 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:04:58,584 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:04:58,584 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:05:28,648 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cloudwick.hadoop:WordCountDynamic:0.0.1-SNAPSHOT @ /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/pom.xml.
+2015-06-03 13:05:28,843 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:05:28,843 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:05:28,844 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:05:28,844 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:05:30,155 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:05:30,155 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:05:30,156 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:05:30,157 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:05:31,207 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cloudwick.hadoop:WordCountDynamic:0.0.1-SNAPSHOT @ /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/pom.xml.
+2015-06-03 13:05:31,408 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:05:31,409 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:05:31,410 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:05:31,410 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:06:11,034 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:06:11,034 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:06:11,036 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:06:11,036 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 13:07:40,745 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:07:40,745 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 13:07:40,746 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 13:07:40,746 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 14:01:39,708 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cloudwick.hadoop:WordFilter:0.0.1-SNAPSHOT @ /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/pom.xml.
+2015-06-03 14:01:40,118 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:01:40,118 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/main/resources
+2015-06-03 14:01:40,118 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:01:40,119 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/test/resources
+2015-06-03 14:01:48,259 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cloudwick.hadoop:WordFilter:0.0.1-SNAPSHOT @ /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/pom.xml.
+2015-06-03 14:01:48,377 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:01:48,378 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/src/main/resources
+2015-06-03 14:01:48,379 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:01:48,379 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/src/test/resources
+2015-06-03 14:01:48,674 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cloudwick.hadoop:WordFilter:0.0.1-SNAPSHOT @ /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/pom.xml.
+2015-06-03 14:01:49,618 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:01:49,618 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/src/main/resources
+2015-06-03 14:01:49,619 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:01:49,640 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/src/test/resources
+2015-06-03 14:03:24,816 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:03:24,817 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-03 14:03:24,818 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:03:24,818 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-03 14:03:59,708 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/WordFilter
+2015-06-03 14:03:59,708 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-03 14:04:01,568 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:04:01,568 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/src/main/resources
+2015-06-03 14:04:01,568 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 14:04:01,568 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilter/src/test/resources
