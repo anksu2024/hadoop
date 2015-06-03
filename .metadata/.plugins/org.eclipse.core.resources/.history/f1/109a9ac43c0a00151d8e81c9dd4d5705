@@ -1,4 +1,4 @@
-#Word Filter
+#File Filter
 
 In the sample example, the input is file has the schema:
 (id, location, name)

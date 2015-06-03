@@ -15,11 +15,9 @@ public class WordFilterDriver extends Configured implements Tool {
 
 		switch (args.length) {
 		case 2:
-			// By default check by CA as location
 			job.getConfiguration().set("state", "CA");
 			break;
 		case 3:
-			// Filter when filter by some other state
 			job.getConfiguration().set("state", args[2]);
 			break;
 		default:

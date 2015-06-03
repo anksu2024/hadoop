@@ -1,4 +1,4 @@
-#Word Filter
+#File Filter
 
 In the sample example, the input is file has the schema:
 (id, location, name)
@@ -9,10 +9,8 @@ for whom the location = 'CA'
 It is an simulation of the query:
 select * from input where location='CA'
 
-
 Assumption:
 The fields are separated by ","
-
 
 Input File Contents:
 1,CA,ankit

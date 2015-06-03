@@ -1,10 +1,9 @@
-#Word Filter
+#File Filter
 
 In the sample example, the input is file has the schema:
 (id, location, name)
 
-For example, based on location = 'CA' (State), find all the records
-for whom the location = 'CA'
+Based on location = 'CA' (State), find all the records
 
 It is an simulation of the query:
 select * from input where location='CA'
@@ -12,7 +11,6 @@ select * from input where location='CA'
 
 Assumption:
 The fields are separated by ","
-
 
 Input File Contents:
 1,CA,ankit

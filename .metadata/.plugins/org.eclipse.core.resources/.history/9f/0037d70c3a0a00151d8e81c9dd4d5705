@@ -12,23 +12,32 @@ import org.apache.hadoop.util.ToolRunner;
 public class WordFilterDriver extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		Job job = new Job(getConf());
-
-		switch (args.length) {
+		
+		switch(args.length) {
 		case 2:
-			// By default check by CA as location
 			job.getConfiguration().set("state", "CA");
 			break;
 		case 3:
-			// Filter when filter by some other state
-			job.getConfiguration().set("state", args[2]);
+			job.getConfiguration().set("state", );
 			break;
 		default:
 			System.out.printf("Usage: %s [generic options] "
-					+ "<input dir> <output Directory> [State By default CA]\n",
-					getClass().getSimpleName());
+					+ "<input dir> <output Directory>\n", getClass()
+					.getSimpleName());
+			return -1;
+		}
+		
+		if (args.length < 2 || args.length > 3) {
+			System.out.printf("Usage: %s [generic options] "
+					+ "<input dir> <output Directory>\n", getClass()
+					.getSimpleName());
 			return -1;
 		}
 
+		
+		
+		
+		
 		job.setJarByClass(WordFilterMapper.class);
 		job.setJobName(this.getClass().getName());
 

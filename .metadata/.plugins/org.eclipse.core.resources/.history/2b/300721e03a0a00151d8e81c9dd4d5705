@@ -19,7 +19,6 @@ public class WordFilterDriver extends Configured implements Tool {
 			job.getConfiguration().set("state", "CA");
 			break;
 		case 3:
-			// Filter when filter by some other state
 			job.getConfiguration().set("state", args[2]);
 			break;
 		default:

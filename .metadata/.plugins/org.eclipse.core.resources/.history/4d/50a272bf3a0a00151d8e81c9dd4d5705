@@ -23,9 +23,7 @@ public class WordFilterMapper extends Mapper<LongWritable, Text, Text, Text> {
 			return;
 		}
 
-		String filter = context.getConfiguration().get("state");
-		
-		if (parts[1].equals(filter)) {
+		if (parts[1].equals("CA")) {
 			context.write(new Text(parts[0] + "," + parts[1] + "," + parts[2]),
 					new Text());
 		}
