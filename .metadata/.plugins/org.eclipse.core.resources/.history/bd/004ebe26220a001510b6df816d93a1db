@@ -1,0 +1,7 @@
+package com.cloudwick.hadoop.WordFilter;
+
+import org.apache.hadoop.conf.Configuration;
+
+public class WordFilter extends Configured implements Tool {
+	
+}

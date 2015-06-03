@@ -222,3 +222,217 @@ Caused by: java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/ha
 	at org.eclipse.swt.internal.Compatibility.newFileOutputStream(Compatibility.java:194)
 	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
 	... 12 more
+
+!ENTRY org.eclipse.jface.text 4 0 2015-06-03 11:49:36.144
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/7.png (No such file or directory))
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:104)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:85)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:759)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:683)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+Caused by: java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/7.png (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.eclipse.swt.internal.Compatibility.newFileOutputStream(Compatibility.java:194)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY org.eclipse.core.resources 4 566 2015-06-03 11:49:59.899
+!MESSAGE Could not save master table to file '/Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1264)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 4 0 2015-06-03 11:50:45.663
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/8.png (No such file or directory))
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:104)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:85)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:759)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:683)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+Caused by: java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/8.png (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.eclipse.swt.internal.Compatibility.newFileOutputStream(Compatibility.java:194)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2015-06-03 11:53:33.538
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2015-06-03 11:53:33.538
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-06-03 11:55:03.112
+!MESSAGE Could not save master table to file '/Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1264)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-06-03 12:00:40.549
+!MESSAGE Could not save master table to file '/Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1264)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-06-03 12:06:48.298
+!MESSAGE Could not save master table to file '/Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1264)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 4 0 2015-06-03 12:07:52.107
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/9.png (No such file or directory))
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:104)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:85)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:759)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:683)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+Caused by: java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/9.png (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.eclipse.swt.internal.Compatibility.newFileOutputStream(Compatibility.java:194)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 12 more
+
+!ENTRY org.eclipse.jface.text 4 0 2015-06-03 12:07:53.598
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/10.png (No such file or directory))
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:258)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:104)
+	at org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL(ImagesOnFileSystemRegistry.java:85)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageURL(JavadocHover.java:759)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getImageAndLabel(JavadocHover.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:683)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+Caused by: java.io.FileNotFoundException: /Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/10.png (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.eclipse.swt.internal.Compatibility.newFileOutputStream(Compatibility.java:194)
+	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
+	... 10 more
