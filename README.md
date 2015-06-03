@@ -2,4 +2,4 @@
 
 1) WordCount
 
-2) WordFilterStatic
+2) WordFilter
