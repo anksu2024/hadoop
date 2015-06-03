@@ -1,0 +1,7 @@
+package com.cloudwick.hadoop.WordFilter;
+
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class WordFilterMapper extends Mapper {
+
+}
