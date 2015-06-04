@@ -6,6 +6,12 @@
 
 3) WordFilterDynamic
 
-4) JobChaining
+4) MultiplePaths (TODO)
 
-5) VisitorTracker
+5) JobChaining
+
+6) VisitorTracker
+
+7) Join Operation (TODO)
+
+8) Union Operation (TODO)
