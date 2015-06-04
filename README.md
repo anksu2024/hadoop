@@ -2,6 +2,8 @@
 
 1) WordCount
 
-2) WordFilter
+2) WordFilterStatic
 
-3) JobChaining
+3) WordFilterDynamic
+
+4) JobChaining
