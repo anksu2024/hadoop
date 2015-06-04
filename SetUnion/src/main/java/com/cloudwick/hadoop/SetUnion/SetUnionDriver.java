@@ -3,6 +3,7 @@ package com.cloudwick.hadoop.SetUnion;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
@@ -23,12 +24,12 @@ public class SetUnionDriver extends Configured implements Tool {
 
 		// Mapper Details
 		job.setMapperClass(SetUnionMapper.class);
-		job.setMapOutputKeyClass(IntWritable.class);
+		job.setMapOutputKeyClass(LongWritable.class);
 		job.setMapOutputValueClass(Text.class);
 
 		// Reducer details
 		job.setReducerClass(SetUnionReducer.class);
-		job.setOutputKeyClass(Text.class);
+		job.setOutputKeyClass(IntWritable.class);
 		job.setOutputValueClass(Text.class);
 
 		// Configuration of Input Out paths on HDFS
