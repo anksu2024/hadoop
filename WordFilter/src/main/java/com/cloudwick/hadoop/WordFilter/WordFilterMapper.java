@@ -2,15 +2,11 @@ package com.cloudwick.hadoop.WordFilter;
 
 import java.io.IOException;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class WordFilterMapper extends Mapper<LongWritable, Text, Text, Text> {
-	private final Log LOG = LogFactory.getLog(WordFilterDriver.class);
-
 	@Override
 	protected void map(LongWritable key, Text value,
 			Mapper<LongWritable, Text, Text, Text>.Context context)
@@ -19,12 +15,11 @@ public class WordFilterMapper extends Mapper<LongWritable, Text, Text, Text> {
 		String[] parts = value.toString().split(",");
 
 		if (parts.length != 3) {
-			LOG.info("Ignoring the line, schema not correct");
 			return;
 		}
 
 		String filter = context.getConfiguration().get("state");
-		
+
 		if (parts[1].equals(filter)) {
 			context.write(new Text(parts[0] + "," + parts[1] + "," + parts[2]),
 					new Text());

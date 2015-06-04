@@ -40,8 +40,6 @@ public class WordFilterDriver extends Configured implements Tool {
 		job.setMapOutputKeyClass(Text.class);
 		job.setMapOutputValueClass(Text.class);
 
-		job.setNumReduceTasks(2);
-
 		if (job.waitForCompletion(true)) {
 			return 0;
 		}
