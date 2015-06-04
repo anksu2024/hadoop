@@ -1,0 +1,6 @@
+Implementation of Chained Mapper Jobs
+
+Output of Mapper1 goes to Mapper2
+
+input ----Mapper1----> temp ----Mapper2----> output
+
