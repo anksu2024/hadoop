@@ -1,0 +1,5 @@
+package com.cloudwick.hadoop.VisitorTracker;
+
+public class VisitorTrackerMapper extends Mapper <LogWritable, Text, Text, Text>{
+	
+}
