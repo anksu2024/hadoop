@@ -1,42 +1,59 @@
 package com.cloudwick.hadoop.TableJoin;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.w3c.dom.Text;
 
 public class TableJoinDriver extends Configured implements Tool {
+	private Log LOG = LogFactory.getLog(TableJoinDriver.class);
 	public int run(String[] args) throws Exception {
-		if (args.length != 2) {
+		if (args.length != 3) {
 			System.out.printf("Usage: %s [generic options] "
-					+ "<input dir> <output Directory>\n", getClass()
-					.getSimpleName());
+					+ "<Input Path 1> <Input Path 2> <output Directory>\n",
+					getClass().getSimpleName());
 			return -1;
 		}
 
-		Job job = new Job(getConf());
+		Path firstPath = new Path(args[0]);
+		Path secondPath = new Path(args[1]);
+		Path thirdPath = new Path(args[2]);
+
+		Configuration conf = new Configuration();
+		Job job = new Job(conf);
+		job.setJarByClass(TableJoinDriver.class);
+		job.setJobName("Table Join");
 
 		// Mapper Details
-		job.setMapperClass(TableJoinMapper.class);
 		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Text.class);
+
+		// Using Multipaths Mapper for processing input
+		MultipleInputs.addInputPath(job, firstPath, TextInputFormat.class,
+				TableJoinMapperEmp.class);
+		MultipleInputs.addInputPath(job, secondPath, TextInputFormat.class,
+				TableJoinMapperDept.class);
+
+		// Configuration of Output paths on HDFS
+		FileOutputFormat.setOutputPath(job, thirdPath);
 
 		// Reducer details
 		job.setReducerClass(TableJoinReducer.class);
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(Text.class);
 
-		// Configuration of Input Out paths on HDFS
-		FileInputFormat.setInputPaths(job, new Path(args[0]));
-		FileOutputFormat.setOutputPath(job, new Path(args[1]));
-
-		if (job.waitForCompletion(true)) {
-		}
+		LOG.info("Reached Here");
+		
+		job.waitForCompletion(true);
 
 		return 0;
 	}

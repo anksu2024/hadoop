@@ -9,21 +9,20 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-public class TableJoinMapperEmp extends
+public class TableJoinMapperDept extends
 		Mapper<LongWritable, Text, IntWritable, Text> {
 	private Log LOG = LogFactory.getLog(TableJoinDriver.class);
 	@Override
-	protected void map(LongWritable key, Text empInfo,
+	protected void map(LongWritable key, Text deptInfo,
 			Mapper<LongWritable, Text, IntWritable, Text>.Context context)
 			throws IOException, InterruptedException {
-		LOG.info("$$HADOOP-EMP$$" + empInfo.toString());
+		LOG.info("$$HADOOP-DEPT$$" + deptInfo.toString());
 		
 		// Assuming that the file is csv
-		String[] empDetails = empInfo.toString().split(",");
+		String[] deptDetails = deptInfo.toString().split(",");
 
-		int mapKey = Integer.parseInt(empDetails[2].trim());
+		int mapKey = Integer.parseInt(deptDetails[0].trim());
 
-		context.write(new IntWritable(mapKey), new Text(empDetails[0] + ","
-				+ empDetails[1]));
+		context.write(new IntWritable(mapKey), new Text(deptDetails[1]));
 	}
 }
