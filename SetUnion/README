@@ -3,7 +3,7 @@
 Implement Set Union Operation (by id)
 
 Input Schema: (id, name)
-Sportsmen1:
+Sportsmen1 (sample.txt):
 1,Virat Kohli
 2,Dwayne Johnson
 3,Vishwanathan Anand
@@ -12,7 +12,7 @@ Sportsmen1:
 6,LeBron James
 
 
-Sportsmen2:
+Sportsmen2 (sample1.txt):
 1,Floyd Mayweather
 2,Saina Nehwal
 3,Roger Federer
