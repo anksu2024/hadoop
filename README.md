@@ -6,7 +6,7 @@
 
 3) WordFilterDynamic
 
-4) MultiplePaths (TODO)
+4) MultiplePaths
 
 5) JobChaining
 
