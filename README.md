@@ -12,6 +12,6 @@
 
 6) VisitorTracker
 
-7) Join Operation (TODO)
+7) Join Operation
 
 8) SetUnion
