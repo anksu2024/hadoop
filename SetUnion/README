@@ -1,0 +1,20 @@
+#SetUnion
+
+Implement Set Union Operation
+
+Input:
+Sportsmen1:
+virat,cricket
+dwayne,wrestling
+vishwanathan,chess
+tiger,golf
+christiano,football
+lebron,basketball
+
+
+Sportsmen2:
+floyd,boxing
+christiano,football
+lebron,basketball
+virat,cricket
+
