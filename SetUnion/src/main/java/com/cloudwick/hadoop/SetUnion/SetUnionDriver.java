@@ -3,13 +3,12 @@ package com.cloudwick.hadoop.SetUnion;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.w3c.dom.Text;
 
 public class SetUnionDriver extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
@@ -24,7 +23,7 @@ public class SetUnionDriver extends Configured implements Tool {
 
 		// Mapper Details
 		job.setMapperClass(SetUnionMapper.class);
-		job.setMapOutputKeyClass(LongWritable.class);
+		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Text.class);
 
 		// Reducer details

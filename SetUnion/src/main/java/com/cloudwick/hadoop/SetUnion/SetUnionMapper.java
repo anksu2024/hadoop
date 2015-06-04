@@ -17,12 +17,13 @@ public class SetUnionMapper extends
 	protected void map(LongWritable key, Text value,
 			Mapper<LongWritable, Text, IntWritable, Text>.Context context)
 			throws IOException, InterruptedException {
-		LOG.info("$$HADOOP$$: " + value);
+		
 		String playerDetails[] = value.toString().split(",");
-
+		
 		IntWritable id = new IntWritable(Integer.parseInt(playerDetails[0]
 				.trim()));
-		
+		LOG.info("$$HADOOP$$2: " + id.get() + ":" + playerDetails[1]);
 		context.write(id, new Text(playerDetails[1].trim()));
+		
 	}
 }
