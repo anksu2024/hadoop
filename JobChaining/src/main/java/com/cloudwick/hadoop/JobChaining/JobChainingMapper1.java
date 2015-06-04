@@ -12,10 +12,10 @@ public class JobChainingMapper1 extends Mapper<LongWritable, Text, Text, Text> {
 			Mapper<LongWritable, Text, Text, Text>.Context context)
 			throws IOException, InterruptedException {
 		String line = value.toString();
-		
-		String [] parts = line.split(",");
-		
-		if(parts[1].equals("CA")) {
+
+		String[] parts = line.split(",");
+
+		if (parts[1].equals(context.getConfiguration().get("state"))) {
 			context.write(value, new Text(""));
 		}
 	}

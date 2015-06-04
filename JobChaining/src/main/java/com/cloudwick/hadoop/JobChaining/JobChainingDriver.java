@@ -1,7 +1,6 @@
 package com.cloudwick.hadoop.JobChaining;
 
 import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -44,9 +43,7 @@ public class JobChainingDriver extends Configured implements Tool {
 
 		job1.setNumReduceTasks(2);
 
-		if (job1.waitForCompletion(true)) {
-			return 0;
-		}
+		if (job1.waitForCompletion(true)) {}
 
 		Job job2 = new Job(getConf());
 
@@ -64,9 +61,7 @@ public class JobChainingDriver extends Configured implements Tool {
 
 		job2.setNumReduceTasks(2);
 
-		if (job2.waitForCompletion(true)) {
-			return 0;
-		}
+		if (job2.waitForCompletion(true)) {}
 /*
 		// Delete temp Directory
 		FileSystem fs = FileSystem.get(getConf());

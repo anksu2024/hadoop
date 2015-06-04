@@ -1884,3 +1884,71 @@ org.eclipse.core.runtime.CoreException: Could not write file: /Users/ankitsarraf
 2015-06-03 18:17:02,382 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
 2015-06-03 18:17:02,384 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-06-03 18:17:02,384 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 18:20:12,159 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 18:20:15,264 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 18:20:15,265 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-06-03 18:20:50,079 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:20:50,079 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 18:20:50,080 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:20:50,080 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 18:20:59,735 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 18:21:02,130 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 18:21:02,130 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-06-03 18:23:37,573 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:23:37,573 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 18:23:37,573 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:23:37,573 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 18:23:40,516 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:23:40,516 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 18:23:40,517 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:23:40,517 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 18:23:54,368 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 18:23:56,443 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 18:23:56,443 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-06-03 18:26:13,032 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:26:13,032 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 18:26:13,033 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:26:13,033 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 18:26:22,476 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:26:22,476 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 18:26:22,477 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 18:26:22,477 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 18:26:37,991 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 18:26:40,632 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 18:26:40,632 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-06-03 22:59:23,529 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 22:59:23,549 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 22:59:23,552 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 22:59:23,552 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 22:59:36,034 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 22:59:38,690 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 22:59:38,718 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2015-06-03 22:59:58,582 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 23:00:01,229 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 23:00:01,229 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-06-03 23:01:34,305 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:01:34,305 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 23:01:34,308 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:01:34,308 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 23:01:40,293 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 23:01:42,870 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 23:01:42,870 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-06-03 23:03:49,592 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:03:49,592 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 23:03:49,594 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:03:49,594 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 23:04:14,649 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:04:14,650 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 23:04:14,651 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:04:14,651 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 23:04:54,177 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:04:54,177 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 23:04:54,178 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:04:54,179 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 23:06:34,613 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-06-03 23:06:35,219 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:06:35,219 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-03 23:06:35,220 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-03 23:06:35,221 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-03 23:06:37,450 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-03 23:06:37,450 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package

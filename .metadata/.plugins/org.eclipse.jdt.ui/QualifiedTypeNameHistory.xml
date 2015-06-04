@@ -12,4 +12,5 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
 </qualifiedTypeNameHistroy>
