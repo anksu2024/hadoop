@@ -1,4 +1,2 @@
 INDEX VERSION 1.127+/Users/ankitsarraf/Documents/Github/hadoop/.metadata/.plugins/org.eclipse.jdt.core
 2339961168.index
-680312502.index
-4275510314.index
