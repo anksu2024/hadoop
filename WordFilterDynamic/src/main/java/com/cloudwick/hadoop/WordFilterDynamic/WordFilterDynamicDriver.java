@@ -11,23 +11,15 @@ import org.apache.hadoop.util.ToolRunner;
 
 public class WordFilterDynamicDriver extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
-		Job job = new Job(getConf());
-
-		switch (args.length) {
-		case 2:
-			// By default check by CA as location
-			job.getConfiguration().set("state", "CA");
-			break;
-		case 3:
-			// Filter when filter by some other state
-			job.getConfiguration().set("state", args[2]);
-			break;
-		default:
+		if (args.length != 3) {
 			System.out.printf("Usage: %s [generic options] "
 					+ "<input dir> <output Directory> [State By default CA]\n",
 					getClass().getSimpleName());
 			return -1;
 		}
+
+		Job job = new Job(getConf());
+		job.getConfiguration().set("state", args[2]);
 
 		job.setJarByClass(WordFilterDynamicMapper.class);
 		job.setJobName(this.getClass().getName());

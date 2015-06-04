@@ -1,0 +1,39 @@
+#Word Filter
+
+In the sample example, the input is file has the schema:
+(id, location, name)
+
+User will provide the state code during execution
+
+It is an simulation of the query:
+select * from input where location='&location'
+
+
+Assumption:
+The fields are separated by ","
+
+
+Input File:
+1,CA,ankit
+2,NY,rahul
+3,TX,jitin
+4,NJ,aditya
+5,VI,arya
+6,CA,anuj
+7,CA,abhinav
+8,TX,rubayya
+9,AZ,rockwell
+10,MS,divya
+11,MS,alok
+12,CA,sawe
+13,TX,mitali
+14,MS,kayla
+
+Execution:
+hadoop jar WordFilter.jar com.cloudwick.hadoop.WordFilter.WordFilterDriver <Path on HDFS to Input File> <Path on HDFS to Output File> <State Code>
+eg: hadoop jar WordFilter.jar com.cloudwick.hadoop.WordFilter.WordFilterDriver /cloudwick/wordfilter/input/sample.txt /cloudwick/wordfilter/output MS
+
+Output File:
+10,MS,divya	
+11,MS,alok	
+14,MS,kayla
