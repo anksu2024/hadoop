@@ -2818,3 +2818,34 @@ org.eclipse.core.runtime.CoreException: Could not write file: /Users/ankitsarraf
 2015-06-04 01:45:26,784 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
 2015-06-04 01:45:26,785 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-06-04 01:45:26,785 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
+2015-06-04 02:04:04,702 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:04:04,703 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
+2015-06-04 02:04:04,703 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:04:04,703 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
+2015-06-04 02:04:07,801 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2015-06-04 02:04:07,900 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker
+2015-06-04 02:04:07,900 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-06-04 02:04:22,928 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:04:22,929 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
+2015-06-04 02:04:22,929 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:04:22,929 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
+2015-06-04 02:06:56,760 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:06:56,760 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
+2015-06-04 02:06:56,763 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:06:56,763 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
+2015-06-04 02:07:10,286 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:10,286 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
+2015-06-04 02:07:10,287 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:10,287 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
+2015-06-04 02:07:27,390 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:27,390 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
+2015-06-04 02:07:27,390 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:27,391 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
+2015-06-04 02:07:28,685 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:28,685 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
+2015-06-04 02:07:28,685 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:28,685 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
+2015-06-04 02:07:30,896 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:30,896 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/main/resources
+2015-06-04 02:07:30,897 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-04 02:07:30,897 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker/src/test/resources
