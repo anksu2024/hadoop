@@ -2,19 +2,20 @@ package com.cloudwick.hadoop.JobChaining;
 
 import java.io.IOException;
 
-import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-public class Mapper2 extends Mapper<IntWritable, Text, Text, Text> {
+public class Mapper2 extends Mapper<LongWritable, Text, Text, Text> {
 	@Override
-	protected void map(IntWritable key, Text value,
-			Mapper<IntWritable, Text, Text, Text>.Context context)
+	protected void map(LongWritable key, Text value,
+			Mapper<LongWritable, Text, Text, Text>.Context context)
 			throws IOException, InterruptedException {
-		int salary = key.get();
-		String finalOutput = value.toString() + "," + key;
+		String parts[] = value.toString().split(",");
+
+		int salary = Integer.parseInt(parts[3].trim());
 		if (salary >= 100000 && salary <= 130000) {
-			context.write(new Text(finalOutput), new Text());
+			context.write(value, new Text());
 		}
 	}
 }

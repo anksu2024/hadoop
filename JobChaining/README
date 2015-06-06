@@ -41,6 +41,8 @@ Input:
 29,WS,mike,89000
 
 
+FILES CREATED USING MULTIPLE JOBS:
+==================================
 temp:
 1,CA,seema,50000	
 12,CA,sawe,130000	
@@ -51,9 +53,18 @@ temp:
 6,CA,anuj,120000	
 7,CA,abhinav,110000	
 
-
 output:
 12,CA,sawe,130000		
 27,CA,caroline,101000		
 6,CA,anuj,120000		
-7,CA,abhinav,110000		
+7,CA,abhinav,110000
+
+
+
+FILES CREATED USING SINGLE JOB:
+===============================
+output:
+6,CA,anuj,120000	
+7,CA,abhinav,110000	
+12,CA,sawe,130000	
+27,CA,caroline,101000
