@@ -35,8 +35,8 @@ public class VisitorTrackerDriver extends Configured implements Tool {
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-		if (job.waitForCompletion(true)) {
-		}
+		if (job.waitForCompletion(true))
+			;
 
 		return 0;
 	}

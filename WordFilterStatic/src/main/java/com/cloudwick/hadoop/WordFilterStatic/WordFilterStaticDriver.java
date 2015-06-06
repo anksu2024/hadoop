@@ -13,7 +13,7 @@ public class WordFilterStaticDriver extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		Job job = new Job(getConf());
 
-		if(args.length != 2) {
+		if (args.length != 2) {
 			System.out.printf("Usage: %s [generic options] "
 					+ "<input dir> <output Directory> [State By default CA]\n",
 					getClass().getSimpleName());
@@ -22,6 +22,7 @@ public class WordFilterStaticDriver extends Configured implements Tool {
 
 		job.setJarByClass(WordFilterStaticMapper.class);
 		job.setJobName(this.getClass().getName());
+		job.setNumReduceTasks(0);
 
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));

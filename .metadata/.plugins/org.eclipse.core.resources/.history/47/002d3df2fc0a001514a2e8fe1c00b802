@@ -1,0 +1,40 @@
+package com.cloudwick.hadoop.TableJoin;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class TableJoinReducer extends Reducer<IntWritable, Text, Text, Text> {
+	@Override
+	protected void reduce(IntWritable deptId, Iterable<Text> details,
+			Reducer<IntWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+
+		Set<String> deptSet = new HashSet<String>();
+		Set<String> empSet = new HashSet<String>();
+
+		for (Text info : details) {
+			String tempInfo = info.toString();
+			if(tempInfo.contains(",")) {
+				empSet.add(tempInfo);
+			} else {
+				deptSet.add(tempInfo);
+			}
+		}
+		
+		StringBuilder outputKey = new StringBuilder("");
+		StringBuilder outputValue = new StringBuilder("");
+		for(String dept : deptSet) {
+			outputKey.append(str)
+			for(String emp : empSet) {
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+To implement join operation of databases
+
+eg. select * from emp, dept where emp.deptid = dept.deptid
+
+Input Files Schema:
+emp: (ename, empid (PK), deptid)
+dept: (deptid (PK), dname)
+
+Input: 2 files have been provided, EMP and DEPT
+EMP file:			DEPT file:
+josh,1,1			1,hadoop
+armanda,2,2			2,cassandra
+alex,3,2			3,mongodb
+ladan,4,1			4,hive
+mike,5,3
+penny,6,2
+
+
+Output:

@@ -1,0 +1,22 @@
+package com.cloudwick.hadoop.TableJoin;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class TableJoinReducer extends Reducer<IntWritable, Text, Text, Text> {
+	@Override
+	protected void reduce(IntWritable deptId, Iterable<Text> details,
+			Reducer<IntWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		Set<ArrayList<String>> 
+		List<String> currentDetails = new ArrayList<String>();
+		for(Text info : details) {
+			
+		}
+	}
+}

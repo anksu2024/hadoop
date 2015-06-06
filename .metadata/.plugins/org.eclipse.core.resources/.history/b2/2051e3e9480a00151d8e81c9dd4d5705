@@ -1,5 +1,0 @@
-package com.cloudwick.hadoop.JobChaining;
-
-public class JobChainingMapper extend Mapper<LongWritable, Text, Text, Text> {
-
-}

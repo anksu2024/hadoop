@@ -12,12 +12,13 @@ import org.apache.hadoop.mapreduce.Mapper;
 public class TableJoinMapperEmp extends
 		Mapper<LongWritable, Text, IntWritable, Text> {
 	private Log LOG = LogFactory.getLog(TableJoinDriver.class);
+
 	@Override
 	protected void map(LongWritable key, Text empInfo,
 			Mapper<LongWritable, Text, IntWritable, Text>.Context context)
 			throws IOException, InterruptedException {
 		LOG.info("$$HADOOP-EMP$$" + empInfo.toString());
-		
+
 		// Assuming that the file is csv
 		String[] empDetails = empInfo.toString().split(",");
 

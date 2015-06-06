@@ -20,6 +20,7 @@ public class WordFilterDynamicDriver extends Configured implements Tool {
 
 		Job job = new Job(getConf());
 		job.getConfiguration().set("state", args[2]);
+		job.setNumReduceTasks(0);
 
 		job.setJarByClass(WordFilterDynamicMapper.class);
 		job.setJobName(this.getClass().getName());

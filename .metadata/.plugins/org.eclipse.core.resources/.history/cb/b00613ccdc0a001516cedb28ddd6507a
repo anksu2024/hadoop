@@ -1,0 +1,5 @@
+package com.cloudwick.hadoop.TableJoin;
+
+public class TableJoinMapper extends Mapper <LongWritable, Text, IntWritable, Text> {
+
+}

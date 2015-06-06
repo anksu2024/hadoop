@@ -16,6 +16,7 @@ import org.apache.hadoop.util.ToolRunner;
 
 public class TableJoinDriver extends Configured implements Tool {
 	private Log LOG = LogFactory.getLog(TableJoinDriver.class);
+
 	public int run(String[] args) throws Exception {
 		if (args.length != 3) {
 			System.out.printf("Usage: %s [generic options] "
@@ -32,6 +33,7 @@ public class TableJoinDriver extends Configured implements Tool {
 		Job job = new Job(conf);
 		job.setJarByClass(TableJoinDriver.class);
 		job.setJobName("Table Join");
+		job.setNumReduceTasks(0);
 
 		// Mapper Details
 		job.setMapOutputKeyClass(IntWritable.class);
@@ -52,7 +54,7 @@ public class TableJoinDriver extends Configured implements Tool {
 		job.setOutputValueClass(Text.class);
 
 		LOG.info("Reached Here");
-		
+
 		job.waitForCompletion(true);
 
 		return 0;

@@ -1,5 +1,0 @@
-package com.cloudwick.hadoop.VisitorTracker;
-
-public class VisitorTrackerMapper extends Mapper {
-
-}

@@ -9,3 +9,5 @@
 1433401131214	Rename type 'WordFilterStaticMapper'
 1433401139862	Copy compilation unit
 1433401148591	Rename type 'CopyOfMapper2'
+1433560268330	Move compilation units
+1433560288623	Rename package 'com.cloudwick.hadoop.jobchainingChainMapper'

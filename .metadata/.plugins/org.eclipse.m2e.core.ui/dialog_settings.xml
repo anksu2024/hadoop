@@ -42,6 +42,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/ankitsarraf/Documents/Github/hadoop/JobChaining"/>
+			<item value="/Users/ankitsarraf/Documents/Github/hadoop/WordFilter"/>
 			<item value="/Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -54,7 +56,12 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.cloudwick.hadoop.MultiPath"/>
+			<item value="com.cloudwick.hadoop.SetUnion"/>
+			<item value="com.cloudwick.hadoop.TableJoin"/>
+			<item value="com.cloudwick.hadoop.VisitorTracker"/>
 			<item value="com.cloudwick.hadoop.JobChaining"/>
+			<item value="com.cloudwick.hadoop.WordFilterDynamic"/>
 			<item value="com.cloudwick.hadoop.WordCountDynamic"/>
 			<item value="com.cloudwick.hadoop.WordFilter"/>
 		</list>
@@ -62,7 +69,12 @@
 			<item value="com.cloudwick.hadoop"/>
 		</list>
 		<list key="artifactId">
+			<item value="MultiPath"/>
+			<item value="SetUnion"/>
+			<item value="TableJoin"/>
+			<item value="VisitorTracker"/>
 			<item value="JobChaining"/>
+			<item value="WordFilterDynamic"/>
 			<item value="WordCountDynamic"/>
 			<item value="WordFilter"/>
 		</list>

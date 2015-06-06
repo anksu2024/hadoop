@@ -56,9 +56,11 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/ankitsarraf/Desktop/TableJoin.jar"/>
+			<item value="/Users/ankitsarraf/Desktop/MultiPath.jar"/>
+			<item value="/Users/ankitsarraf/Desktop/SetUnion.jar"/>
+			<item value="/Users/ankitsarraf/Desktop/VisitorTracker.jar"/>
 			<item value="/Users/ankitsarraf/Desktop/JobChaining.jar"/>
-			<item value="/Users/ankitsarraf/Desktop/WordFilter.jar"/>
-			<item value="/Users/ankitsarraf/Desktop/WordCount.jar"/>
 		</list>
 	</section>
 	<section name="JavaElementSearchActions">

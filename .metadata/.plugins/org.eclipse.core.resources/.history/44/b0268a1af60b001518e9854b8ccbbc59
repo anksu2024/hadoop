@@ -1,0 +1,28 @@
+package com.cloudwick.hadoop.JobChaining;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Mapper1 extends Mapper<LongWritable, Text, Text, Text> {
+	@Override
+	protected void map(LongWritable key, Text value,
+			Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		String parts[] = value.toString().split(",");
+
+		if (parts[1].equals("CA")) {
+			context.write();
+		}
+	}
+}
+
+/*
+1,CA,seema,50000
+2,NY,rahul,70000
+3,TX,jitin,95000
+4,NJ,aditya,97000
+5,VI,arya,70000
+*/

@@ -43,7 +43,7 @@ public class MultiPathDriver extends Configured implements Tool {
 		FileOutputFormat.setOutputPath(job, thirdPath);
 
 		job.setNumReduceTasks(0);
-		
+
 		// Wait for job completion
 		job.waitForCompletion(true);
 

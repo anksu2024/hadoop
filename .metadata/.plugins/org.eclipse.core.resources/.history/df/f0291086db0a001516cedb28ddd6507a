@@ -1,0 +1,8 @@
+To implement join operation of databases
+
+eg. select * from emp, dept where emp.deptid = dept.deptid
+
+Input Files Schema:
+emp: (ename, empid (PK), deptid)
+dept: (deptid (PK), dname)
+

@@ -42,6 +42,7 @@ public class JobChainingDriver extends Configured implements Tool {
 		job = new Job(getConf());
 		job.setJarByClass(Mapper2.class);
 		job.setJobName(this.getClass().getName());
+		job.setNumReduceTasks(0);
 
 		FileInputFormat.setInputPaths(job, new Path(
 				"/cloudwick/jobchaining/temp"));
