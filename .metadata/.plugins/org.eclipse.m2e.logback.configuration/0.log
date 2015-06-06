@@ -5971,3 +5971,39 @@ org.eclipse.core.runtime.CoreException: Could not write file: /Users/ankitsarraf
 2015-06-05 20:34:18,789 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/main/resources
 2015-06-05 20:34:18,790 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-06-05 20:34:18,790 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/test/resources
+2015-06-05 20:35:32,055 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-05 20:35:32,055 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:35:34,144 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:35:34,144 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-05 20:35:34,144 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:35:34,144 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-05 20:35:47,019 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/JobChaining
+2015-06-05 20:35:47,019 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:35:48,657 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:35:48,658 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/main/resources
+2015-06-05 20:35:48,658 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:35:48,658 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/JobChaining/src/test/resources
+2015-06-05 20:35:54,617 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/MultiPath
+2015-06-05 20:35:54,617 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:36:04,361 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/SetUnion
+2015-06-05 20:36:04,361 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:36:06,035 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:36:06,035 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/SetUnion/src/main/resources
+2015-06-05 20:36:06,035 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:36:06,035 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/SetUnion/src/test/resources
+2015-06-05 20:36:10,180 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/TableJoin
+2015-06-05 20:36:10,180 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:36:16,065 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/VisitorTracker
+2015-06-05 20:36:16,065 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:36:22,533 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic
+2015-06-05 20:36:22,533 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:36:24,188 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:36:24,188 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/main/resources
+2015-06-05 20:36:24,188 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:36:24,188 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterDynamic/src/test/resources
+2015-06-05 20:36:28,320 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic
+2015-06-05 20:36:28,320 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-05 20:36:29,992 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:36:29,992 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/main/resources
+2015-06-05 20:36:29,992 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-05 20:36:29,992 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ankitsarraf/Documents/Github/hadoop/WordFilterStatic/src/test/resources
