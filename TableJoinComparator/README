@@ -1,0 +1,13 @@
+For the description refer to the README file give on the link:
+https://github.com/asarraf/hadoop/blob/master/TableJoin/README
+
+The new stuff in this is that a custom Caparator is implemented.
+Purpose of this is, the Reducer gets the key value pairs in such
+a manner such that the first key value pair corresponds to the
+department table information.
+
+This is done in order to avoid the 2 * O(n) traversals of values
+Reducer receives.
+
+Our purpose is not to make it algorithmically efficient but to
+reduce the application execution time.
