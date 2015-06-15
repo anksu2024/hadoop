@@ -26,9 +26,9 @@ hadoop jar TableJoin.jar com.cloudwick.hadoop.TableJoin.TableJoinDriver
 
 
 Output: 1 file with the combination of both the files
-<1,hadoop>		<4,ladan>
-<1,hadoop>		<1,josh>
-<2,cassandra>	<6,penny>
-<2,cassandra>	<3,alex>
+<1,hadoop>	<1,josh>
 <2,cassandra>	<2,armanda>
-<3,mongodb>		<5,mike>
+<2,cassandra>	<3,alex>
+<1,hadoop>	<4,ladan>
+<3,mongodb>	<5,mike>
+<2,cassandra>	<6,penny>

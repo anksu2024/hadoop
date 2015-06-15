@@ -15,7 +15,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class EmpMapper extends Mapper<LongWritable, Text, Text, Text> {
-	private Map<Integer, String> deptMap;
+	private Map<Integer, String> deptMap = new HashMap<Integer, String>();
 
 	@Override
 	protected void setup(Mapper<LongWritable, Text, Text, Text>.Context context)
@@ -36,6 +36,9 @@ public class EmpMapper extends Mapper<LongWritable, Text, Text, Text> {
 			String[] parts = line.split(",");
 			deptMap.put(Integer.parseInt(parts[0]), parts[1]);
 		}
+		
+		// Close the BufferedReader
+		cacheReader.close();
 	}
 
 	@Override
@@ -47,7 +50,7 @@ public class EmpMapper extends Mapper<LongWritable, Text, Text, Text> {
 		Text mapperKey = new Text("<" + parts[2] + ","
 				+ deptMap.get(Integer.parseInt(parts[2])) + ">");
 		Text mapperValue = new Text("<" + parts[0] + "," + parts[1] + ">");
-
+		
 		context.write(mapperKey, mapperValue);
 	}
 }
