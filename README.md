@@ -1,5 +1,9 @@
 #Hadoop Sample Programs
 
+This repository contains the Sample Hadoop prograns to
+get a head start on learning to develop programs using
+Hadoop (Java)
+
 1) WordCount
 
 2) WordFilterStatic
