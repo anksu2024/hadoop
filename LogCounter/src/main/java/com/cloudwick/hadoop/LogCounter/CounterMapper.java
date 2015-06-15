@@ -26,11 +26,14 @@ public class CounterMapper extends Mapper<LongWritable, Text, Text, Text> {
 			throws IOException, InterruptedException {
 		if (value.toString().startsWith("ERROR:")) {
 			counterError.increment(1);
+			context.write(new Text("ERROR"), new Text(""));
 		} else if (value.toString().startsWith("WARNING:")) {
 			counterWarning.increment(1);
+			context.write(new Text("WARNING"), new Text(""));
 		} else {
 			// if(value.toString().startsWith("INFO:"))
 			counterInfo.increment(1);
+			context.write(new Text("INFO"), new Text(""));
 		}
 	}
 }
