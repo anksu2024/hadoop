@@ -1,0 +1,25 @@
+#LogCounter
+
+Concept used: Counters in Hadoop
+
+Problem Definition:
+Given an input file that contains logs
+The target is to count the number of different types of logs
+The log contains 3 types of Logs:
+- INFO
+- ERROR
+- WARNING
+
+Sample Input file:
+INFO: Info Debug 1
+WARNING: Warning Debug 1
+INFO: Info Debug 2
+ERROR: Error Debug 1
+WARNING: Warning Debug 2
+ERROR: Error Debug 2
+INFO: Info Debug 3
+
+Output for sample input:
+INFO: 3
+WARNING: 2
+ERROR: 2
