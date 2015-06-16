@@ -47,6 +47,12 @@ public class Driver extends Configured implements Tool {
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		
+		// Counter Declaration
+		Driver.counterError = job.getCounters().findCounter(DEBUG_COUNTER.ERROR);
+		Driver.counterInfo = job.getCounters().findCounter(DEBUG_COUNTER.INFO);
+		Driver.counterWarning = job.getCounters().findCounter(DEBUG_COUNTER.WARNING);
+		
+		// Start the job
 		job.waitForCompletion(true);
 
 		return 0;
