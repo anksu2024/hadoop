@@ -23,3 +23,14 @@ Output for sample input:
 INFO: 3
 WARNING: 2
 ERROR: 2
+
+
+Important Lesson:
+Value of Counter in Mapper is not accessible in the Reducer. The reason for that might be that at a time many Reducers may be simultaneously be working on the counter
+So getting the correct value will require a synchronization mechanism in the HDFS Framework and well as the application. This mechanism neither seems practical nor implementable.
+
+But associative operations can surly be performed on Counter be it in Mapper or Reducer. Hence increment(value) is supported. In such a case same global copy of the Counter gets edited.
+
+On the other hand, the values are available in Driver Class. The reason is that at that point on Driver class has the access to the Counter.
+
+Also, if similar mechnaism is to be implemented, the counter values can always be written through context.
