@@ -2,10 +2,10 @@ package com.cloudwick.hadoop.LogCounter;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.filecache.DistributedCache;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Counter;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
@@ -13,20 +13,23 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 public class Driver extends Configured implements Tool {
+	public static Counter counterError;
+	public static Counter counterWarning;
+	public static Counter counterInfo;
+	
 	public int run(String[] args) throws Exception {
-		if (args.length != 3) {
+		if (args.length != 2) {
 			System.out.printf("Usage: %s [generic options] "
-					+ "<Emp Input Path> <Output Path> <Dept Directory>\n",
+					+ "<Log File Input Path> <Output Path>\n",
 					getClass().getSimpleName());
 			return -1;
 		}
 
+		// Configuration
 		Configuration conf = new Configuration();
-
-		// Adding the Dept file in the DistributedCache
-		DistributedCache.addCacheFile(new Path(args[2]).toUri(), conf);
-
-		Job job = new Job(conf);
+		
+		// Job definition
+		Job job = Job.getInstance(conf);
 		job.setJarByClass(Driver.class);
 		job.setJobName("Sample Counter");
 
@@ -43,7 +46,7 @@ public class Driver extends Configured implements Tool {
 		// Configuration of Output paths on HDFS
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
-
+		
 		job.waitForCompletion(true);
 
 		return 0;
