@@ -26,8 +26,7 @@ ERROR: 2
 
 
 Important Lesson:
-Value of Counter in Mapper is not accessible in the Reducer. The reason for that might be that at a time many Reducers may be simultaneously be working on the counter
-So getting the correct value will require a synchronization mechanism in the HDFS Framework and well as the application. This mechanism neither seems practical nor implementable.
+Value of Counter in Mapper is not accessible in the Reducer. The reason for that might be that at a time many Reducers may be simultaneously be working on the counter. So getting the correct value will require a synchronization mechanism in the HDFS Framework and well as the application. This mechanism seems neither practical nor implementable.
 
 But associative operations can surly be performed on Counter be it in Mapper or Reducer. Hence increment(value) is supported. In such a case same global copy of the Counter gets edited.
 
