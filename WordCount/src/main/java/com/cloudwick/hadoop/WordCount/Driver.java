@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-public class WordCount extends Configured implements Tool {
+public class Driver extends Configured implements Tool {
 
 	public int run(String[] args) throws Exception {
 
@@ -23,15 +23,14 @@ public class WordCount extends Configured implements Tool {
 		}
 
 		Job job = new Job(getConf());
-		job.setJarByClass(WordCount.class);
+		job.setJarByClass(Driver.class);
 		job.setJobName(this.getClass().getName());
-		job.setNumReduceTasks(0);
 
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-		job.setMapperClass(WordCountMapper.class);
-		job.setReducerClass(WordCountReducer.class);
+		job.setMapperClass(MyMapper.class);
+		job.setReducerClass(MyReducer.class);
 
 		job.setMapOutputKeyClass(Text.class);
 		job.setMapOutputValueClass(IntWritable.class);
@@ -46,7 +45,7 @@ public class WordCount extends Configured implements Tool {
 	}
 
 	public static void main(String[] args) throws Exception {
-		int exitCode = ToolRunner.run(new WordCount(), args);
+		int exitCode = ToolRunner.run(new Driver(), args);
 		System.exit(exitCode);
 	}
 }
